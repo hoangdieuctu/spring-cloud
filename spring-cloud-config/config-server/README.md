@@ -44,7 +44,7 @@ Config server port and git url.
 *The setting **clone-on-start** can help to identify a misconfigured configuration source (such as an invalid repository URI) quickly, while the Config Server is starting up.*
 ```properties
 server.port=8888
-spring.cloud.config.server.git.uri=https://hoangdieuctu@bitbucket.org/hoangdieuctu/service-config.git
+spring.cloud.config.server.git.uri=https://github.com/hoangdieuctu/service-config.git
 spring.cloud.config.server.git.clone-on-start=true
 ```
 # Security
